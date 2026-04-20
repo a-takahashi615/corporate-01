@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AssetDesign - MISSION ミッション -</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Strategic Design Solutionの詳細を紹介します">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <!-- ロゴ -->
+      <a href="index.html" id="logo">
+        <img src="images/logo.png" alt="トップページに戻る">
+      </a>
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <ul>
+          <li><a href="mission.html">MISSION</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+          <li><a href="index.html#vision">VISION</a></li>
+          <li><a href="index.html#company">COMPANY</a></li>
+          <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- スマホ用メニューボタン -->
+      <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+        <img src="images/button-menu.png" alt="ナビゲーションを開く">
+      </button>
+
+      <!-- スマホ用ナビゲーション -->
+      <div id="nav-sp">
+        <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+          <img src="images/button-close.png" alt="ナビゲーションを閉じる">
+        </button>
+
+        <nav>
+          <ul>
+            <li>
+              <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+            </li>
+            <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a></li>
+            <li><a class="menu" href="service.html" onclick="document.getElementById('nav-sp').style.display = 'none'">SERVICE</a></li>
+            <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a></li>
+            <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="sns">
+          <a href="https://www.facebook.com/">
+            <img src="images/button-facebook.png" alt="Facebookのリンク">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/button-twitter.png" alt="Twitterのリンク">
+          </a>
+          <a href="https://www.youtube.com/">
+            <img src="images/button-youtube.png" alt="YouTubeのリンク">
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section id="mission-main">
+          <div class="mission-main-inner">
+            <div id="mission-title">
+              <h1>MISSION<br><span>ミッション</span></h1>
+              <p>TOP > MISSION</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="mission-solution">
+          <h2 class="mission-h2">Strategic Design Solution</h2>
+          <p>「AssetDesign」が定義するデザインとは、単なる視覚的な装飾ではありません。それは、企業のビジネスゴールを達成するための強力な「戦略」であり、中長期的に価値を蓄積し続ける「資産」です。私たちは以下の3つのアプローチを通じて、色褪せないブランドの正解を導き出します。</p>
+        </section>
+
+        <section id="mission-design-solution">
+          <div class="design-solution-read">
+            <div>
+              <img class="design-solution-image-left" src="images/mission/mission-design-solution01.png" alt="右を向いている女性社員">
+              <span class="design-solution-number">01</span>
+              <h3 class="design-solution-h3">本質の抽出</h3>
+              <p class="design-solution-p">ヒアリングを通じて、お客様自身も気づいていないビジネスの本質的な強みや、市場における独自の価値を徹底的に言語化します。表面的な要望の先にある「真に解決すべき課題」を見極めることが、すべての設計の起点となります。</p>
+            </div>
+            <div>
+              <img class="design-solution-image-right" src="images/mission/mission-design-solution02.png" alt="PCとデスク">
+              <span class="design-solution-number">02</span>
+              <h3 class="design-solution-h3">論理的な可視化</h3>
+              <p class="design-solution-p">抽出した本質を、緻密な情報設計と感性に基づいたビジュアルへと昇華させます。すべての色、フォント、レイアウトには「なぜそうあるべきか」という論理的根拠を持たせ、一貫性のあるブランド体験を構築します。</p>
+            </div>
+            <div>
+              <img class="design-solution-image-left" src="images/mission/mission-design-solution03.png" alt="右を向いている男性社員">
+
+              <span class="design-solution-number">03</span>
+              <h3 class="design-solution-h3">将来を見据えた設計</h3>
+              <p class="design-solution-p">Webサイトを公開して終わりにするのではなく、将来的な機能拡張や運用のしやすさを考慮した基盤を構築します。変化の激しいデジタル環境においても、柔軟に適応し、価値を高め続ける「持続可能な資産」としてのWebサイトを実現します。</p>
+            </div>
+            <div>
+              <img class="design-solution-image-right" src="images/mission/mission-design-solution04.png" alt="紹介している男性社員">
+              <span class="design-solution-number">04</span>
+              <h3 class="design-solution-h3">資産価値の最大化</h3>
+              <p class="design-solution-p">優れたWebサイトを構築しても、情報が止まってしまえばその価値は減退します。私たちは、SNS運用支援やコンテンツ制作を通じて、ブランドとユーザーの間に継続的な接点を創出します。一貫したトーン＆マナーでの発信を続けることで、認知を信頼へと変え、デジタル資産としての影響力を最大化させます。</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div id="footer-logo">
+        <img src="images/logo-sp.png" alt="AssetDesign">
+      </div>
+      <div id="footer-link">
+        <a href="mission.html">MISSION</a>
+        <a href="service.html">SERVICE</a>
+        <a href="index.html#vision">VISION</a>
+        <a href="index.html#company">COMPANY</a>
+        <a href="index.html#contact">CONTACT</a>
+      </div>
+      <div id="sns-footer">
+        <div class="sns-btns">
+          <a href="https://www.facebook.com/"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
+          <a href="https://twitter.com/"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+          <a href="https://www.youtube.com/"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+        </div>
+        <p id="copyright">&copy;2026 AssetDesign, Inc. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

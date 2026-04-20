@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AssetDesign</title>
+    <meta charset="utf-8">
+    <meta name="description" content="AssetDesignは企業のブランド設計およびWeb戦略のコンサルティングを担います。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <!-- ロゴ -->
+      <a href="index.html" id="logo">
+        <img src="images/logo.png" alt="トップページに戻る">
+      </a>
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <ul>
+          <li><a href="mission.html">MISSION</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+          <li><a href="index.html#vision">VISION</a></li>
+          <li><a href="index.html#company">COMPANY</a></li>
+          <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- スマホ用メニューボタン -->
+      <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+        <img src="images/button-menu.png" alt="ナビゲーションを開く">
+      </button>
+
+      <!-- スマホ用ナビゲーション -->
+      <div id="nav-sp">
+        <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+          <img src="images/button-close.png" alt="ナビゲーションを閉じる">
+        </button>
+
+        <nav>
+          <ul>
+            <li>
+              <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+            </li>
+            <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a></li>
+            <li><a class="menu" href="service.html" onclick="document.getElementById('nav-sp').style.display = 'none'">SERVICE</a></li>
+            <li><a class="menu" href="index.html#vision" onclick="document.getElementById('nav-sp').style.display = 'none'">VISION</a></li>
+            <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a></li>
+            <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="sns">
+          <a href="https://www.facebook.com/">
+            <img src="images/button-facebook.png" alt="Facebookのリンク">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/button-twitter.png" alt="Twitterのリンク">
+          </a>
+          <a href="https://www.youtube.com/">
+            <img src="images/button-youtube.png" alt="YouTubeのリンク">
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- メインビジュアル -->
+        <section id="main-visual">
+          <div id="main-message">
+            <h1>STRATEGIC ASSET</h1>
+            <p>永続的な資産となるデザインを</p>
+          </div>
+          <img src="images/index/index-main.png" alt="オフィスにいる4人の会社員">
+        </section>
+
+        <!-- ミッション -->
+        <section id="mission">
+          <h2 class="index-h2">MISSION</h2>
+          <div id="mission-flex">
+            <div>
+              <img id="mission-photo" src="images/index/index-mission.png" alt="光に満ちた都会のビル群">
+              <h3>価値の最大化を、クリエイティブで実現</h3>
+              <p>情報の溢れる現代において、本当に伝えたい価値を届けるためには、緻密な設計と洗練された表現が不可欠です。私たちは、お客様の最も身近なパートナーとして、共にブランドの未来を創り上げます。</p>
+            </div>
+            <div>
+              <img id="solution" src="images/index/index-solution.png" alt="提案している2人の会社員">
+              <h3>Strategic Design Solution</h3>
+              <p>「AssetDesign」が提供するのは、一過性の美しさではありません。ビジネスの核となる強みを抽出し、長期的な資産として機能する戦略的なデザインを提供します。変化の激しい市場において、常に色褪せないブランドの「正解」を導き出します。</p>
+              <a href="mission.html">
+                 <img class="button-more" src="images/button-more.png" alt="もっとみる">
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- サービス -->
+        <section id="service">
+          <h2 class="index-h2">SERVICE</h2>
+          <div class="service-flex">
+            <div id="service-left">
+              <div>
+                <img class="service-photo" src="images/index/index-strategy.png" alt="計画書とペン">
+                <div class="service-explain">
+                  <span>Brand Strategy</span>
+                  <h3>ブランド戦略</h3>
+                  <p>企業のビジョンを整理し、市場での独自の立ち位置を明確にします。ロゴデザインからトーン＆マナーの策定まで一貫してサポートします。</p>
+                </div>
+              </div>
+              <div>
+                <img class="service-photo" src="images/index/index-design.png" alt="PCに映されているプログラミングコード">
+                <div class="service-explain">
+                  <span>Web Design & Development</span>
+                  <h3>Web制作・構築</h3>
+                  <p>戦略に基づいたUI/UX設計を行い、洗練されたWebサイトを構築します。保守性の高いコーディングにより、公開後の運用もスムーズです。</p>
+                </div>
+              </div>
+            </div>
+            <div id="service-right">
+              <div>
+                <img class="service-photo" src="images/index/index-consulting.png" alt="提案している男性社員">
+                <div class="service-explain">
+                  <span>Digital Consulting</span>
+                  <h3>デジタルコンサルティング</h3>
+                  <p>データに基づいた改善提案を行い、サイト公開後の成果最大化を目指します。SEO対策やコンテンツ企画も提供します。</p>
+                </div>
+              </div>
+              <div>
+                <img class="service-photo" src="images/index/index-management.png" alt="スマートフォンを操作する男性社員">
+                <div class="service-explain">
+                  <span>Content & Media Management</span>
+                  <h3>コンテンツ・メディア運用</h3>
+                  <p>WebサイトやSNSを通じて、企業の魅力を発信し続けるためのコンテンツ制作を支援します。写真撮影のディレクションから、Instagram等のSNS投稿画像の作成、運用代行まで対応します。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="service-more">
+            <a href="service.html">
+              <img class="button-more" src="images/button-more.png" alt="もっとみる">
+            </a>
+          </div>
+        </section>
+
+        <!-- VISION -->
+        <section id="vision">
+          <h2 class="index-h2">VISION</h2>
+          <h3>6つの行動指針</h3>
+          <div>
+            <div class="vision-box">
+              <img src="images/index/vision-01.png" alt="01">
+              <div>
+                <h4>Logic & Aesthetics</h4>
+                <h5>論理と感性の融合</h5>
+                <p>表面的な美しさだけではなく、なぜそのデザインなのかという「論理的根拠」を大切にします。緻密な設計に基づいた美しさが、確かな信頼を生み出すと信じています。</p>
+              </div>
+            </div>
+            <div class="vision-box">
+              <img src="images/index/vision-02.png" alt="02">
+              <div>
+                <h4>Beyond Expectations</h4>
+                <h5>期待を超える価値の提供</h5>
+                <p>言われた通りのものを作るだけでなく、お客様の潜在的な課題を見つけ出し、期待を上回るソリューションを提案します。</p>
+              </div>
+            </div>
+            <div class="vision-box">
+              <img src="images/index/vision-03.png" alt="03">
+              <div>
+                <h4>Speed & Quality</h4>
+                <h5>速さは信頼の証</h5>
+                <p>迅速なレスポンスと進行管理を徹底し、プロジェクトのスピードを加速させます。同時に、プロフェッショナルとして細部のクオリティに一切の妥協を許しません。</p>
+              </div>
+            </div>
+            <div class="vision-box">
+              <img src="images/index//vision-04.png" alt="04">
+              <div>
+                <h4>Sustainable Implementation</h4>
+                <h5>資産価値を守る、確かな実装</h5>
+                <p>企業の資産となるWebサイトには、安定した動作と保守性が不可欠です。高度なITリテラシーを活かした正確なコーディングにより、不具合を最小限に抑え、公開後の更新や拡張もスムーズに行える高品質なデジタル基盤を構築します。</p>
+              </div>
+            </div>
+            <div class="vision-box">
+              <img src="images/index/vision-05.png" alt="05">
+              <div>
+                <h4>Partner for Growth</h4>
+                <h5>共に成長するパートナーへ</h5>
+                <p>納品をゴールとせず、公開後の運用や改善まで寄り添います。お客様のビジネスが成長し続けるための「資産」を、共に創り上げていきます。</p>
+              </div>
+            </div>
+            <div class="vision-box">
+              <img src="images/index/vision-06.png" alt="06">
+              <div>
+                <h4>Sustainable Asset</h4>
+                <h5>持続可能な「資産」を創る</h5>
+                <p>デザインを単なる消耗品ではなく、時間と共に価値が増していく企業の「資産」と捉えます。将来的な拡張性やメンテナンス性を考慮した設計を行い、長く愛され、機能し続けるデジタル基盤を構築します。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- COMPANY -->
+        <section id="company">
+          <h2 class="index-h2">COMPANY</h2>
+          <h3>会社概要</h3>
+          <table id="company-table">
+            <tr>
+              <th class="tableheader tableheader-first">会社名</th>
+              <td class="cell cell-first">株式会社AssetDesign</td>
+            </tr>
+            <tr>
+              <th class="tableheader">所在地</th>
+              <td class="cell">〒107-0062 東京都港区南青山2-26-1 D-LIFEPLACE南青山 4F</td>
+            </tr>
+            <tr>
+              <th class="tableheader">代表者</th>
+              <td class="cell">代表取締役 松村 圭介</td>
+            </tr>
+            <tr>
+              <th class="tableheader">設立</th>
+              <td class="cell">2025年12月1日</td>
+            </tr>
+          </table>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2909776657084!2d139.7148797748217!3d35.669836630601424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9c3d0bc835%3A0x72497b507c387e3!2zRC1MSUZFUExBQ0XljZfpnZLlsbE!5e0!3m2!1sja!2sjp!4v1776666380870!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- お問い合わせフォーム -->
+        <section id="contact">
+          <h2 class="index-h2">CONTACT</h2>
+          <h3>お問い合わせ</h3>
+          <form id="form">
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">お名前<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <input id="name" type="text" name="name" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">フリガナ<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <input id="furigana" type="text" name="hurigana" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <input id="email" type="text" name="email" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">電話番号</label>
+              </div>
+              <div>
+                <input id="tel" type="text" name="tel" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">お問い合わせ内容<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <textarea id="message" class="contact-textarea " placeholder="入力してください" name="message"></textarea>
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">ご希望の連絡先<span class="contact-span">必須</span></label>
+              </div>
+              <div><input class="radiobutton" type="radio" value="tel" name="contact" checked><label>お電話</label> <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label> <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label></div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">個人情報の取り扱い</label>
+              </div>
+              <div>
+                <details>
+                  <summary>お問い合わせフォームの個人情報の取り扱いについて</summary>
+                  <div>
+                    <dl>
+                      <dt>１．組織の名称又は氏名</dt>
+                      <dd>株式会社AssetDesign</dd>
+                      <dt>２．個人情報保護管理者</dt>
+                      <dd>
+                        <p>佐々木 健治 コーポレート管理責任者</p>
+                        <p>メールアドレス：info@assetdesign.jp</p>
+                        <p>TEL：03-6434-1234</p>
+                      </dd>
+                      <dt>３．個人情報の利用目的</dt>
+                      <dd>
+                        <ul>
+                          <li>・お問い合わせに対する回答および資料送付のため</li>
+                          <li>・ご相談内容に基づいた最適なサービス提案、コンサルティング業務の遂行のため</li>
+                          <li>・当社が提供するサービス、セミナー、展示会等のご案内のため</li>
+                          <li>・アンケート調査の実施およびマーケティングデータの分析のため</li>
+                        </ul>
+                      </dd>
+                      <dt>４．個人情報の取り扱い業務の委託</dt>
+                      <dd>当社は、利用目的の達成に必要な範囲内において、個人情報の取り扱い業務の全部または一部を外部に委託する場合があります。委託先については、当社の定める個人情報保護水準を満たす企業を厳選し、機密保持契約を締結した上で、適切な監督を行います。</dd>
+                      <dt>５．個人情報の開示等の請求</dt>
+                      <dd>
+                        お客様は、当社に対してご自身の個人情報の開示等（利用目的の通知、開示、内容の訂正・追加・削除、利用の停止または消去、第三者への提供の停止）を求めることができます。お問い合わせいただいた方がご本人であることを確認した上で、合理的な期間内に速やかに対応いたします。
+                      </dd>
+                      <dd>
+                        <p>株式会社AssetDesign　個人情報相談窓口</p>
+                        <p>〒107-0062 東京都港区南青山2-26-1 D-LIFEPLACE南青山 4F</p>
+                        <p>メールアドレス：info@assetdesign.jp　TEL：03-6434-1234</p>
+                      </dd>
+
+                      <dt>６．個人情報提供の任意性</dt>
+                      <dd>個人情報の提供は任意ですが、必要な情報をご提供いただけない場合、お問い合わせへの回答やサービスの提供が適切に行えない場合がございます。あらかじめご了承ください。</dd>
+                    </dl>
+                  </div>
+                </details>
+                <input id="agree" type="checkbox" name="agree">
+                <span>個人情報の取り扱いについてご同意いただける場合は、チェックをしてください。</span>
+              </div>
+            </div>
+            <input id="submit" type="image" src="images/button-submit-green.png" alt="送信する">
+          </form>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div id="footer-logo">
+        <img src="images/logo-sp.png" alt="AssetDesign">
+      </div>
+      <div id="footer-link">
+        <a href="mission.html">MISSION</a>
+        <a href="service.html">SERVICE</a>
+        <a href="index.html#vision">VISION</a>
+        <a href="index.html#company">COMPANY</a>
+        <a href="index.html#contact">CONTACT</a>
+      </div>
+      <div id="sns-footer">
+        <div class="sns-btns">
+          <a href="https://www.facebook.com/"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
+          <a href="https://x.com/"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+          <a href="https://www.youtube.com/"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+        </div>
+        <p id="copyright">&copy;2026 AssetDesign, Inc. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

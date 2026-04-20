@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AssetDesign -SERVICE 事業内容-</title>
+    <meta charset="utf-8">
+    <meta name="description" content="AssetDesignの4つの事業内容を紹介します">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <!-- ロゴ -->
+      <a href="index.html" id="logo">
+        <img src="images/logo.png" alt="トップページに戻る">
+      </a>
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <ul>
+          <li><a href="mission.html">MISSION</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+          <li><a href="index.html#vision">VISION</a></li>
+          <li><a href="index.html#company">COMPANY</a></li>
+          <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- スマホ用メニューボタン -->
+      <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+        <img src="images/button-menu.png" alt="ナビゲーションを開く">
+      </button>
+
+      <!-- スマホ用ナビゲーション -->
+      <div id="nav-sp">
+        <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+          <img src="images/button-close.png" alt="ナビゲーションを閉じる">
+        </button>
+
+        <nav>
+          <ul>
+            <li>
+              <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+            </li>
+            <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a></li>
+            <li><a class="menu" href="service.html" onclick="document.getElementById('nav-sp').style.display = 'none'">SERVICE</a></li>
+            <li><a class="menu" href="index.html#vision" onclick="document.getElementById('nav-sp').style.display = 'none'">VISION</a></li>
+            <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a></li>
+            <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="sns">
+          <a href="https://www.facebook.com/">
+            <img src="images/button-facebook.png" alt="Facebookのリンク">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/button-twitter.png" alt="Twitterのリンク">
+          </a>
+          <a href="https://www.youtube.com/">
+            <img src="images/button-youtube.png" alt="YouTubeのリンク">
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section id="service-main">
+          <div class="service-main-inner">
+            <div id="service-title">
+              <h1>SERVICE<br><span>事業内容</span></h1>
+              <p>TOP > SERVICE</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="service-section service-section-left">
+          <div class="service-section-img">
+            <img src="images/service/service-strategy.png" alt="計画書とペン">
+          </div>
+          <div class="service-read">
+            <h2 class="service-h2">Brand Strategy</h2>
+            <h3 class="service-h3">ブランド戦略</h3>
+            <p>
+              単なるロゴ制作に留まらず、企業の存在意義を再定義し、競合との差別化を図るための指針を策定します。市場分析に基づいた独自のポジショニングを明確にし、視覚表現の基準となるトーン＆マナーを構築。一貫したブランドアイデンティティを確立することで、顧客の記憶に深く刻まれる「信頼という資産」を築き上げます。
+            </p>
+          </div>
+        </section>
+
+        <section class="service-section service-section-right">
+          <div class="service-read">
+            <h2 class="service-h2">Digital Consulting</h2>
+            <h3 class="service-h3">デジタルコンサルティング</h3>
+            <p>公開後のWebサイトを放置せず、データ解析に基づいた継続的な成長を支援します。SEO（検索エンジン最適化）による集客力向上や、ユーザー行動の分析から導き出すコンバージョン率の改善提案を実施。専門的な知見からビジネスの課題に対する具体的な解決策を提示し、Webサイトを「成果を創出し続ける資産」へと進化させます。</p>
+          </div>
+          <div class="service-section-img">
+            <img src="images/service/service-consulting.png" alt="提案している男性社員">
+          </div>
+        </section>
+
+        <section class="service-section service-section-left">
+          <div class="service-section-img">
+            
+            <img src="images/service/service-design.png" alt="PCに映されているプログラミングコード">
+          </div>
+          <div class="service-read">
+            <h2 class="service-h2">Web Design & Development</h2>
+            <h3 class="service-h3">Web制作・構築</h3>
+            <p>ビジネス戦略を具現化するため、ユーザー心理を捉えた高度なUI/UX設計を行います。最新の技術トレンドを取り入れつつ、清潔感のある洗練されたビジュアルを追求。さらに、公開後のメンテナンス性を重視した検索エンジンやAIが理解しやすい論理的なコーディングを徹底し、中長期的な運用コストを抑えながら価値を高め続けるデジタル基盤を提供します。<br></p>
+          </div>
+        </section>
+
+        <section class="service-section service-section-right">
+          <div class="service-read">
+            <h2 class="service-h2">Content & Media Management</h2>
+            <h3 class="service-h3">コンテンツ・メディア運用</h3>
+            <p>ブランドへの信頼を醸成するため、SNSやオウンドメディアを通じた継続的なコミュニケーションを設計します。高品質な写真素材のディレクションや、戦略的なInstagram投稿の企画・運用代行まで対応。一貫性のあるクリエイティブで情報を発信し続けることにより、ユーザーとの強固な接点を創出し、ブランドの認知を確実なファン化へと繋げます。</p>
+          </div>
+          <div class="service-section-img">
+            <img src="images/service/service-management.png" alt="スマートフォンを操作する男性社員">
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div id="footer-logo">
+        <img src="images/logo-sp.png" alt="AssetDesign">
+      </div>
+      <div id="footer-link">
+        <a href="mission.html">MISSION</a>
+        <a href="service.html">SERVICE</a>
+        <a href="index.html#vision">VISION</a>
+        <a href="index.html#company">COMPANY</a>
+        <a href="index.html#contact">CONTACT</a>
+      </div>
+      <div id="sns-footer">
+        <div class="sns-btns">
+          <a href="https://www.facebook.com/"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
+          <a href="https://twitter.com/"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+          <a href="https://www.youtube.com/"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+        </div>
+        <p id="copyright">&copy;2026 AssetDesign, Inc. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
